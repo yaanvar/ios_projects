@@ -20,6 +20,8 @@
 		E44338CA2962F93200CB6D90 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44338C92962F93200CB6D90 /* UIViewController+Ext.swift */; };
 		E44983982962EA0D006DB676 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44983972962EA0D006DB676 /* GFButton.swift */; };
 		E449839A2962EB94006DB676 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44983992962EB94006DB676 /* GFTextField.swift */; };
+		E4E39E45296433E0005C4DE8 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E39E44296433E0005C4DE8 /* Follower.swift */; };
+		E4E39E47296434CD005C4DE8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E39E46296434CD005C4DE8 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		E44338C92962F93200CB6D90 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		E44983972962EA0D006DB676 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		E44983992962EB94006DB676 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		E4E39E44296433E0005C4DE8 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = SOURCE_ROOT; };
+		E4E39E46296434CD005C4DE8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		E44338CD2962FBBC00CB6D90 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E4E39E44296433E0005C4DE8 /* Follower.swift */,
+				E4E39E46296434CD005C4DE8 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E39E47296434CD005C4DE8 /* User.swift in Sources */,
 				E44338C82962F5CA00CB6D90 /* GFAlertViewController.swift in Sources */,
 				E449839A2962EB94006DB676 /* GFTextField.swift in Sources */,
 				E40B7F3029618883002A0E0D /* SearchViewController.swift in Sources */,
@@ -205,6 +212,7 @@
 				E44983982962EA0D006DB676 /* GFButton.swift in Sources */,
 				E44338C22962F1C800CB6D90 /* FollowerListViewController.swift in Sources */,
 				E44338C62962F56000CB6D90 /* GFBodyLabel.swift in Sources */,
+				E4E39E45296433E0005C4DE8 /* Follower.swift in Sources */,
 				E44338C42962F4B200CB6D90 /* GFTitleLabel.swift in Sources */,
 				E40B7F1C29618444002A0E0D /* AppDelegate.swift in Sources */,
 				E40B7F322961889C002A0E0D /* FavoritesViewController.swift in Sources */,
