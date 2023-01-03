@@ -90,7 +90,6 @@
 				E40B7F2F29618883002A0E0D /* SearchViewController.swift */,
 				E44338C12962F1C800CB6D90 /* FollowerListViewController.swift */,
 				E40B7F312961889C002A0E0D /* FavoritesViewController.swift */,
-				E44338C72962F5CA00CB6D90 /* GFAlertViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -102,6 +101,7 @@
 				E44983972962EA0D006DB676 /* GFButton.swift */,
 				E44338C32962F4B200CB6D90 /* GFTitleLabel.swift */,
 				E44338C52962F56000CB6D90 /* GFBodyLabel.swift */,
+				E44338C72962F5CA00CB6D90 /* GFAlertViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
